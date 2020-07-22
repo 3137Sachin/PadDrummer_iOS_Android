@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vol-Rn-9G1">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Guitar Kit-->
+        <scene sceneID="vcY-xq-GhQ">
+            <objects>
+                <viewController id="nip-Xn-oCf" customClass="GuitarKit_ViewController" customModule="Pad_Drummer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wzX-eg-el8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="eXQ-OZ-eIr">
+                                <rect key="frame" x="-204" y="-70" width="821" height="1036"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pad Drummer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9AQ-Zg-6n8">
+                                <rect key="frame" x="69" y="223" width="275" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="37"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guitar Kit Pack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhg-rj-3Lr">
+                                <rect key="frame" x="112" y="266" width="188" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="23"/>
+                                <color key="textColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkp-Ld-VLr">
+                                <rect key="frame" x="61" y="336" width="93" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blue_button"/>
+                                <connections>
+                                    <action selector="Sound01:" destination="zeF-cv-dax" eventType="touchUpInside" id="K5l-pg-W1M"/>
+                                    <action selector="Sound01:" destination="nip-Xn-oCf" eventType="touchUpInside" id="sjZ-xY-ugV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPp-v1-lbz">
+                                <rect key="frame" x="160" y="336" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="purple_button"/>
+                                <connections>
+                                    <action selector="Sound02:" destination="nip-Xn-oCf" eventType="touchUpInside" id="jRO-n4-YOw"/>
+                                    <action selector="Sound06:" destination="zeF-cv-dax" eventType="touchUpInside" id="HnN-JX-v9L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vh6-Jn-Eej">
+                                <rect key="frame" x="259" y="336" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="pink_button"/>
+                                <connections>
+                                    <action selector="Sound03:" destination="nip-Xn-oCf" eventType="touchUpInside" id="0Eq-TY-UMT"/>
+                                    <action selector="Sound07:" destination="zeF-cv-dax" eventType="touchUpInside" id="nD8-r4-7p3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkN-yB-qfV">
+                                <rect key="frame" x="259" y="517" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="green_button"/>
+                                <connections>
+                                    <action selector="Sound09:" destination="zeF-cv-dax" eventType="touchUpInside" id="lCY-oB-f5C"/>
+                                    <action selector="Sound15:" destination="nip-Xn-oCf" eventType="touchUpInside" id="rBB-6t-MLA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hch-oS-19F">
+                                <rect key="frame" x="160" y="425" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="pink_button"/>
+                                <connections>
+                                    <action selector="Sound03:" destination="zeF-cv-dax" eventType="touchUpInside" id="Zet-Zl-TXg"/>
+                                    <action selector="Sound11:" destination="nip-Xn-oCf" eventType="touchUpInside" id="Gi5-Cr-l1K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="066-Nr-LDk">
+                                <rect key="frame" x="160" y="517" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="lightblue_button"/>
+                                <connections>
+                                    <action selector="Sound08:" destination="zeF-cv-dax" eventType="touchUpInside" id="Vek-gh-4L0"/>
+                                    <action selector="Sound14:" destination="nip-Xn-oCf" eventType="touchUpInside" id="GsA-bW-6u2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AcR-or-o20">
+                                <rect key="frame" x="61" y="426" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="purple_button"/>
+                                <connections>
+                                    <action selector="Sound02:" destination="zeF-cv-dax" eventType="touchUpInside" id="u2G-GW-vOM"/>
+                                    <action selector="Sound10:" destination="nip-Xn-oCf" eventType="touchUpInside" id="AJE-yT-wpO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdO-Ns-Y6l">
+                                <rect key="frame" x="259" y="426" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="purple_button"/>
+                                <connections>
+                                    <action selector="Sound04:" destination="zeF-cv-dax" eventType="touchUpInside" id="VIx-rV-Abz"/>
+                                    <action selector="Sound12:" destination="nip-Xn-oCf" eventType="touchUpInside" id="g57-Rt-yfY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbt-Tc-zBF">
+                                <rect key="frame" x="61" y="517" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="pink_button"/>
+                                <connections>
+                                    <action selector="Sound05:" destination="zeF-cv-dax" eventType="touchUpInside" id="UrP-mP-ii3"/>
+                                    <action selector="Sound13:" destination="nip-Xn-oCf" eventType="touchUpInside" id="UdP-Ec-Bxy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="yek-RZ-cIU"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Guitar Kit" id="yA9-MN-e0i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Usg-zm-6SW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15422" y="852"/>
+        </scene>
+        <!--Tips-->
+        <scene sceneID="Ftz-kG-pJO">
+            <objects>
+                <viewController id="1T0-Jd-uSB" customClass="Tips_ViewController" customModule="Pad_Drummer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="43X-nu-gRd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="UJd-tb-7wy">
+                                <rect key="frame" x="-204" y="-70" width="821" height="1036"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3t7-Yv-8sx">
+                                <rect key="frame" x="150" y="266" width="81" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="39"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Practice!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N8c-E8-CeI">
+                                <rect key="frame" x="67" y="350" width="124" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="21"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Listen to Beats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDu-h3-1ka">
+                                <rect key="frame" x="69" y="378" width="192" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="21"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. Try to mock others beats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rU7-ha-ujh">
+                                <rect key="frame" x="69" y="407" width="310" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="21"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4. Listen to more music!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngv-pS-sY1">
+                                <rect key="frame" x="69" y="437" width="267" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="21"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5. Implement random ideas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agZ-7G-Gto">
+                                <rect key="frame" x="69" y="463" width="312" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="21"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14F-us-vDu">
+                                <rect key="frame" x="147" y="532" width="121" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="Submit" label="Submit"/>
+                                <state key="normal" backgroundImage="green_button">
+                                    <color key="titleShadowColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Toast:" destination="1T0-Jd-uSB" eventType="touchUpInside" id="jwP-e2-9Fj"/>
+                                    <action selector="Toast:" destination="dHc-QA-9nn" eventType="touchUpInside" id="myP-VF-pRa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Like?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6A-nW-C7i">
+                                <rect key="frame" x="181" y="539" width="43" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="0NO-H8-wFb"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tips" id="raC-9A-DvY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eFA-m0-jMm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16388.405797101452" y="851.78571428571422"/>
+        </scene>
+        <!--Home Kit-->
+        <scene sceneID="BKn-Ny-vFa">
+            <objects>
+                <viewController id="zeF-cv-dax" customClass="MainKit_ViewController" customModule="Pad_Drummer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1g6-bR-ZvH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="hXl-I9-olS">
+                                <rect key="frame" x="-204" y="-70" width="821" height="1036"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pad Drummer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEJ-N5-4s9">
+                                <rect key="frame" x="69" y="223" width="275" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="37"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Drum Kit Pack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ctw-QF-0DF">
+                                <rect key="frame" x="119" y="267" width="176" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="23"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBK-T2-HRN">
+                                <rect key="frame" x="260" y="426" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="purple_button"/>
+                                <connections>
+                                    <action selector="Sound06:" destination="zeF-cv-dax" eventType="touchUpInside" id="9Vm-HL-fNe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uxp-lp-m1g">
+                                <rect key="frame" x="260" y="336" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="pink_button"/>
+                                <connections>
+                                    <action selector="Sound03:" destination="zeF-cv-dax" eventType="touchUpInside" id="i5f-1U-I4e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBI-FA-Jbr">
+                                <rect key="frame" x="160" y="426" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="pink_button"/>
+                                <connections>
+                                    <action selector="Sound05:" destination="zeF-cv-dax" eventType="touchUpInside" id="1oU-kb-i5A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7r-bb-mkD">
+                                <rect key="frame" x="260" y="517" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="green_button"/>
+                                <connections>
+                                    <action selector="Sound09:" destination="zeF-cv-dax" eventType="touchUpInside" id="C4s-pU-727"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsQ-pp-Q17">
+                                <rect key="frame" x="61" y="517" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="pink_button"/>
+                                <connections>
+                                    <action selector="Sound07:" destination="zeF-cv-dax" eventType="touchUpInside" id="AMQ-cg-eZT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h89-Wh-cpf">
+                                <rect key="frame" x="160" y="517" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="lightblue_button"/>
+                                <connections>
+                                    <action selector="Sound08:" destination="zeF-cv-dax" eventType="touchUpInside" id="NEt-sL-f5J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJp-i1-Nsu">
+                                <rect key="frame" x="61" y="336" width="93" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blue_button"/>
+                                <connections>
+                                    <action selector="Sound01:" destination="zeF-cv-dax" eventType="touchUpInside" id="x5q-Aa-xky"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQf-iR-Yhu">
+                                <rect key="frame" x="160" y="336" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="purple_button"/>
+                                <connections>
+                                    <action selector="Sound02:" destination="zeF-cv-dax" eventType="touchUpInside" id="h0c-Vi-gpj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQU-gm-3zh">
+                                <rect key="frame" x="61" y="426" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="purple_button"/>
+                                <connections>
+                                    <action selector="Sound04:" destination="zeF-cv-dax" eventType="touchUpInside" id="Acm-6S-SZh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="3WM-hT-QjY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home Kit" id="LKu-nu-Zcy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q1D-0e-GyP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-14642" y="852"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="Wp6-RJ-MPN">
+            <objects>
+                <viewController id="2gV-Cp-XwP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CYn-Pt-Wzy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="crU-PB-xSX">
+                                <rect key="frame" x="-204" y="-70" width="821" height="1036"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ash-Grey" translatesAutoresizingMaskIntoConstraints="NO" id="3Hx-oC-Vdu">
+                                <rect key="frame" x="9" y="245" width="396" height="380"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkgrey" translatesAutoresizingMaskIntoConstraints="NO" id="lEc-Pg-m5z">
+                                <rect key="frame" x="-266" y="245" width="640" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkgrey" translatesAutoresizingMaskIntoConstraints="NO" id="YY7-L8-3Ax">
+                                <rect key="frame" x="-251" y="245" width="640" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkgrey" translatesAutoresizingMaskIntoConstraints="NO" id="7Fw-Hr-iVr">
+                                <rect key="frame" x="-177" y="245" width="640" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkgrey" translatesAutoresizingMaskIntoConstraints="NO" id="5LT-SI-bwf">
+                                <rect key="frame" x="-103" y="245" width="640" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkgrey" translatesAutoresizingMaskIntoConstraints="NO" id="q1t-xn-AgS">
+                                <rect key="frame" x="-33" y="245" width="640" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="darkgrey" translatesAutoresizingMaskIntoConstraints="NO" id="bhE-iP-CiY">
+                                <rect key="frame" x="40" y="245" width="640" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d96-bs-jY2">
+                                <rect key="frame" x="154" y="261" width="105" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pad Drummer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXM-lQ-Nse">
+                                <rect key="frame" x="96" y="471" width="223" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="30"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Version 1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rH7-d5-3TD">
+                                <rect key="frame" x="143" y="506" width="127" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="21"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="© Sachin Karki 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vr-ct-7Lh">
+                                <rect key="frame" x="90" y="532" width="234" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="21"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All rights reserved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IsO-k3-zhi">
+                                <rect key="frame" x="103" y="560" width="208" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="21"/>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="z9l-3c-zYu">
+                                <rect key="frame" x="90" y="335" width="234" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="3M8-TF-j43"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About" id="nZj-Om-EU9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xrD-tf-Feq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-17306" y="852"/>
+        </scene>
+        <!--Feedback-->
+        <scene sceneID="hvo-zg-zWs">
+            <objects>
+                <viewController id="dHc-QA-9nn" customClass="Feedback_ViewController" customModule="Pad_Drummer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZKZ-eh-TMr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="oJd-9u-kvQ">
+                                <rect key="frame" x="-204" y="-70" width="821" height="1036"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feedback" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkb-6y-yti">
+                                <rect key="frame" x="107" y="215" width="201" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="39"/>
+                                <color key="textColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" keyboardDismissMode="interactive" text="Please write your feeback here!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="H6v-9y-YTz">
+                                <rect key="frame" x="57" y="359" width="310" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Names are anonymous" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" background="Ash-Grey" translatesAutoresizingMaskIntoConstraints="NO" id="335-ed-ZGf">
+                                <rect key="frame" x="57" y="325" width="310" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XSW-Sk-7Ua">
+                                <rect key="frame" x="162" y="283" width="100" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="Select Kit"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="inputTextField:" destination="bDr-MT-Jyp" eventType="editingDidEnd" id="b90-NT-5Rt"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ud-4x-ax4">
+                                <rect key="frame" x="164" y="547" width="100" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" hint="Submit" label="Submit"/>
+                                <state key="normal" backgroundImage="blue_button">
+                                    <color key="titleShadowColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Toast:" destination="dHc-QA-9nn" eventType="touchUpInside" id="34j-P9-T7j"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Submit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LxW-Bo-bp8">
+                                <rect key="frame" x="185" y="553" width="58" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ag5-fC-xtJ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Feedback" id="h3H-OC-cyv"/>
+                    <connections>
+                        <outlet property="PickerTextField" destination="XSW-Sk-7Ua" id="coa-FG-55v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oIA-ON-BYO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="bDr-MT-Jyp" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-17307.246376811596" y="103.79464285714285"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Nt9-vv-cqy">
+            <objects>
+                <tabBarController id="Vol-Rn-9G1" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="30h-WA-Bhe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="zeF-cv-dax" kind="relationship" relationship="viewControllers" id="Mkz-of-QmF"/>
+                        <segue destination="nip-Xn-oCf" kind="relationship" relationship="viewControllers" id="XSH-bE-QFp"/>
+                        <segue destination="1T0-Jd-uSB" kind="relationship" relationship="viewControllers" id="Ewo-RJ-RSu"/>
+                        <segue destination="2gV-Cp-XwP" kind="relationship" relationship="viewControllers" id="18N-Dt-uKS"/>
+                        <segue destination="dHc-QA-9nn" kind="relationship" relationship="viewControllers" id="Sj0-Fu-iks"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MmZ-yU-xRq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16387" y="104"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ash-Grey" width="800" height="800"/>
+        <image name="background 2" width="4000" height="4000"/>
+        <image name="blue_button" width="299" height="299"/>
+        <image name="darkgrey" width="336" height="280"/>
+        <image name="green_button" width="316" height="315"/>
+        <image name="icon" width="1000" height="1000"/>
+        <image name="lightblue_button" width="319" height="319"/>
+        <image name="pink_button" width="321" height="322"/>
+        <image name="purple_button" width="316" height="317"/>
+    </resources>
+</document>

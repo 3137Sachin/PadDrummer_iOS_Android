@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21222c</color>
+    <color name="colorPrimaryDark">#21222c</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--Blue Gradient-->
+    <color name="bluestartcolor">#47f9fe</color>
+    <color name="blueendcolor">#1295fd</color>
+
+
+    <!--Orange Gradient-->
+    <color name="orangestartcolor">#feed64</color>
+    <color name="orangeendcolor">#dda660</color>
+
+
+    <!--Pink Gradient-->
+    <color name="pinkstartcolor">#fd75a5</color>
+    <color name="pinkendcolor">#ea1e77</color>
+
+
+    <!--Purple Gradient-->
+    <color name="purplestartcolor">#f755e1</color>
+    <color name="purpleendcolor">#c425ec</color>
+
+
+    <!--Green Gradient-->
+    <color name="greenstartcolor">#b4fa51</color>
+    <color name="greenendcolor">#78cb29</color>
+
+    <!--Dark Blue Gradient-->
+    <color name="darkbluestartcolor">#235DEC</color>
+    <color name="darkblueendcolor">#1EF3EC</color>
+
+
+
+
+</resources>

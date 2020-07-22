@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F6E5E2244FD18D00867685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6E5E1244FD18D00867685 /* AppDelegate.swift */; };
+		03F6E5E4244FD18D00867685 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6E5E3244FD18D00867685 /* SceneDelegate.swift */; };
+		03F6E5E6244FD18D00867685 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6E5E5244FD18D00867685 /* ViewController.swift */; };
+		03F6E5E9244FD18D00867685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E5E7244FD18D00867685 /* Main.storyboard */; };
+		03F6E5EB244FD18F00867685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E5EA244FD18F00867685 /* Assets.xcassets */; };
+		03F6E5EE244FD18F00867685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E5EC244FD18F00867685 /* LaunchScreen.storyboard */; };
+		03F6E5F9244FD18F00867685 /* Pad_DrummerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6E5F8244FD18F00867685 /* Pad_DrummerTests.swift */; };
+		03F6E604244FD18F00867685 /* Pad_DrummerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6E603244FD18F00867685 /* Pad_DrummerUITests.swift */; };
+		03F6E62C244FD20200867685 /* sound1.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E623244FD20100867685 /* sound1.WAV */; };
+		03F6E62D244FD20200867685 /* sound9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E624244FD20100867685 /* sound9.mp3 */; };
+		03F6E62E244FD20200867685 /* sound4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E625244FD20100867685 /* sound4.wav */; };
+		03F6E62F244FD20200867685 /* sound8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E626244FD20100867685 /* sound8.mp3 */; };
+		03F6E630244FD20200867685 /* sound3.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E627244FD20100867685 /* sound3.WAV */; };
+		03F6E631244FD20200867685 /* sound6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E628244FD20100867685 /* sound6.wav */; };
+		03F6E632244FD20200867685 /* sound7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E629244FD20100867685 /* sound7.mp3 */; };
+		03F6E633244FD20200867685 /* sound5.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E62A244FD20100867685 /* sound5.WAV */; };
+		03F6E634244FD20200867685 /* sound2.WAV in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E62B244FD20200867685 /* sound2.WAV */; };
+		03F6E63B244FF60100867685 /* sound15.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E635244FF60000867685 /* sound15.wav */; };
+		03F6E63C244FF60100867685 /* sound12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E636244FF60000867685 /* sound12.wav */; };
+		03F6E63D244FF60100867685 /* sound13.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E637244FF60100867685 /* sound13.wav */; };
+		03F6E63E244FF60100867685 /* sound10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E638244FF60100867685 /* sound10.wav */; };
+		03F6E63F244FF60100867685 /* sound14.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E639244FF60100867685 /* sound14.wav */; };
+		03F6E640244FF60100867685 /* sound11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03F6E63A244FF60100867685 /* sound11.wav */; };
+		03F826012450DAAC000CC885 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F826002450DAAC000CC885 /* ToastView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F6E5F5244FD18F00867685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F6E5D6244FD18D00867685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F6E5DD244FD18D00867685;
+			remoteInfo = "Pad-Drummer";
+		};
+		03F6E600244FD18F00867685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F6E5D6244FD18D00867685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F6E5DD244FD18D00867685;
+			remoteInfo = "Pad-Drummer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F6E5DE244FD18D00867685 /* Pad-Drummer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pad-Drummer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F6E5E1244FD18D00867685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03F6E5E3244FD18D00867685 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03F6E5E5244FD18D00867685 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03F6E5E8244FD18D00867685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03F6E5EA244FD18F00867685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03F6E5ED244FD18F00867685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03F6E5EF244FD18F00867685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F6E5F4244FD18F00867685 /* Pad-DrummerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pad-DrummerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F6E5F8244FD18F00867685 /* Pad_DrummerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pad_DrummerTests.swift; sourceTree = "<group>"; };
+		03F6E5FA244FD18F00867685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F6E5FF244FD18F00867685 /* Pad-DrummerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pad-DrummerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F6E603244FD18F00867685 /* Pad_DrummerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pad_DrummerUITests.swift; sourceTree = "<group>"; };
+		03F6E605244FD18F00867685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F6E623244FD20100867685 /* sound1.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound1.WAV; sourceTree = "<group>"; };
+		03F6E624244FD20100867685 /* sound9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound9.mp3; sourceTree = "<group>"; };
+		03F6E625244FD20100867685 /* sound4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound4.wav; sourceTree = "<group>"; };
+		03F6E626244FD20100867685 /* sound8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound8.mp3; sourceTree = "<group>"; };
+		03F6E627244FD20100867685 /* sound3.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound3.WAV; sourceTree = "<group>"; };
+		03F6E628244FD20100867685 /* sound6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound6.wav; sourceTree = "<group>"; };
+		03F6E629244FD20100867685 /* sound7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound7.mp3; sourceTree = "<group>"; };
+		03F6E62A244FD20100867685 /* sound5.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound5.WAV; sourceTree = "<group>"; };
+		03F6E62B244FD20200867685 /* sound2.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound2.WAV; sourceTree = "<group>"; };
+		03F6E635244FF60000867685 /* sound15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound15.wav; sourceTree = "<group>"; };
+		03F6E636244FF60000867685 /* sound12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound12.wav; sourceTree = "<group>"; };
+		03F6E637244FF60100867685 /* sound13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound13.wav; sourceTree = "<group>"; };
+		03F6E638244FF60100867685 /* sound10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound10.wav; sourceTree = "<group>"; };
+		03F6E639244FF60100867685 /* sound14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound14.wav; sourceTree = "<group>"; };
+		03F6E63A244FF60100867685 /* sound11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound11.wav; sourceTree = "<group>"; };
+		03F826002450DAAC000CC885 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F6E5DB244FD18D00867685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F6E5F1244FD18F00867685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F6E5FC244FD18F00867685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F6E5D5244FD18D00867685 = {
+			isa = PBXGroup;
+			children = (
+				03F6E5E0244FD18D00867685 /* Pad-Drummer */,
+				03F6E5F7244FD18F00867685 /* Pad-DrummerTests */,
+				03F6E602244FD18F00867685 /* Pad-DrummerUITests */,
+				03F6E5DF244FD18D00867685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03F6E5DF244FD18D00867685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F6E5DE244FD18D00867685 /* Pad-Drummer.app */,
+				03F6E5F4244FD18F00867685 /* Pad-DrummerTests.xctest */,
+				03F6E5FF244FD18F00867685 /* Pad-DrummerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03F6E5E0244FD18D00867685 /* Pad-Drummer */ = {
+			isa = PBXGroup;
+			children = (
+				03F6E5E1244FD18D00867685 /* AppDelegate.swift */,
+				03F6E5E3244FD18D00867685 /* SceneDelegate.swift */,
+				03F6E5E5244FD18D00867685 /* ViewController.swift */,
+				03F6E5E7244FD18D00867685 /* Main.storyboard */,
+				03F6E5EA244FD18F00867685 /* Assets.xcassets */,
+				03F6E5EC244FD18F00867685 /* LaunchScreen.storyboard */,
+				03F6E5EF244FD18F00867685 /* Info.plist */,
+				03F6E623244FD20100867685 /* sound1.WAV */,
+				03F6E62B244FD20200867685 /* sound2.WAV */,
+				03F6E627244FD20100867685 /* sound3.WAV */,
+				03F6E625244FD20100867685 /* sound4.wav */,
+				03F6E62A244FD20100867685 /* sound5.WAV */,
+				03F6E628244FD20100867685 /* sound6.wav */,
+				03F6E629244FD20100867685 /* sound7.mp3 */,
+				03F6E626244FD20100867685 /* sound8.mp3 */,
+				03F6E624244FD20100867685 /* sound9.mp3 */,
+				03F6E638244FF60100867685 /* sound10.wav */,
+				03F6E63A244FF60100867685 /* sound11.wav */,
+				03F6E636244FF60000867685 /* sound12.wav */,
+				03F6E637244FF60100867685 /* sound13.wav */,
+				03F6E639244FF60100867685 /* sound14.wav */,
+				03F6E635244FF60000867685 /* sound15.wav */,
+				03F826002450DAAC000CC885 /* ToastView.swift */,
+			);
+			path = "Pad-Drummer";
+			sourceTree = "<group>";
+		};
+		03F6E5F7244FD18F00867685 /* Pad-DrummerTests */ = {
+			isa = PBXGroup;
+			children = (
+				03F6E5F8244FD18F00867685 /* Pad_DrummerTests.swift */,
+				03F6E5FA244FD18F00867685 /* Info.plist */,
+			);
+			path = "Pad-DrummerTests";
+			sourceTree = "<group>";
+		};
+		03F6E602244FD18F00867685 /* Pad-DrummerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03F6E603244FD18F00867685 /* Pad_DrummerUITests.swift */,
+				03F6E605244FD18F00867685 /* Info.plist */,
+			);
+			path = "Pad-DrummerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F6E5DD244FD18D00867685 /* Pad-Drummer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F6E608244FD18F00867685 /* Build configuration list for PBXNativeTarget "Pad-Drummer" */;
+			buildPhases = (
+				03F6E5DA244FD18D00867685 /* Sources */,
+				03F6E5DB244FD18D00867685 /* Frameworks */,
+				03F6E5DC244FD18D00867685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pad-Drummer";
+			productName = "Pad-Drummer";
+			productReference = 03F6E5DE244FD18D00867685 /* Pad-Drummer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03F6E5F3244FD18F00867685 /* Pad-DrummerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F6E60B244FD18F00867685 /* Build configuration list for PBXNativeTarget "Pad-DrummerTests" */;
+			buildPhases = (
+				03F6E5F0244FD18F00867685 /* Sources */,
+				03F6E5F1244FD18F00867685 /* Frameworks */,
+				03F6E5F2244FD18F00867685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F6E5F6244FD18F00867685 /* PBXTargetDependency */,
+			);
+			name = "Pad-DrummerTests";
+			productName = "Pad-DrummerTests";
+			productReference = 03F6E5F4244FD18F00867685 /* Pad-DrummerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03F6E5FE244FD18F00867685 /* Pad-DrummerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F6E60E244FD18F00867685 /* Build configuration list for PBXNativeTarget "Pad-DrummerUITests" */;
+			buildPhases = (
+				03F6E5FB244FD18F00867685 /* Sources */,
+				03F6E5FC244FD18F00867685 /* Frameworks */,
+				03F6E5FD244FD18F00867685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F6E601244FD18F00867685 /* PBXTargetDependency */,
+			);
+			name = "Pad-DrummerUITests";
+			productName = "Pad-DrummerUITests";
+			productReference = 03F6E5FF244FD18F00867685 /* Pad-DrummerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F6E5D6244FD18D00867685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = SachinKarki;
+				TargetAttributes = {
+					03F6E5DD244FD18D00867685 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					03F6E5F3244FD18F00867685 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 03F6E5DD244FD18D00867685;
+					};
+					03F6E5FE244FD18F00867685 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 03F6E5DD244FD18D00867685;
+					};
+				};
+			};
+			buildConfigurationList = 03F6E5D9244FD18D00867685 /* Build configuration list for PBXProject "Pad-Drummer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03F6E5D5244FD18D00867685;
+			productRefGroup = 03F6E5DF244FD18D00867685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F6E5DD244FD18D00867685 /* Pad-Drummer */,
+				03F6E5F3244FD18F00867685 /* Pad-DrummerTests */,
+				03F6E5FE244FD18F00867685 /* Pad-DrummerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F6E5DC244FD18D00867685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F6E632244FD20200867685 /* sound7.mp3 in Resources */,
+				03F6E63E244FF60100867685 /* sound10.wav in Resources */,
+				03F6E640244FF60100867685 /* sound11.wav in Resources */,
+				03F6E63F244FF60100867685 /* sound14.wav in Resources */,
+				03F6E62F244FD20200867685 /* sound8.mp3 in Resources */,
+				03F6E62D244FD20200867685 /* sound9.mp3 in Resources */,
+				03F6E630244FD20200867685 /* sound3.WAV in Resources */,
+				03F6E62E244FD20200867685 /* sound4.wav in Resources */,
+				03F6E634244FD20200867685 /* sound2.WAV in Resources */,
+				03F6E62C244FD20200867685 /* sound1.WAV in Resources */,
+				03F6E63C244FF60100867685 /* sound12.wav in Resources */,
+				03F6E5EE244FD18F00867685 /* LaunchScreen.storyboard in Resources */,
+				03F6E5EB244FD18F00867685 /* Assets.xcassets in Resources */,
+				03F6E5E9244FD18D00867685 /* Main.storyboard in Resources */,
+				03F6E631244FD20200867685 /* sound6.wav in Resources */,
+				03F6E633244FD20200867685 /* sound5.WAV in Resources */,
+				03F6E63B244FF60100867685 /* sound15.wav in Resources */,
+				03F6E63D244FF60100867685 /* sound13.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F6E5F2244FD18F00867685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F6E5FD244FD18F00867685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F6E5DA244FD18D00867685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F826012450DAAC000CC885 /* ToastView.swift in Sources */,
+				03F6E5E6244FD18D00867685 /* ViewController.swift in Sources */,
+				03F6E5E2244FD18D00867685 /* AppDelegate.swift in Sources */,
+				03F6E5E4244FD18D00867685 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F6E5F0244FD18F00867685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F6E5F9244FD18F00867685 /* Pad_DrummerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F6E5FB244FD18F00867685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F6E604244FD18F00867685 /* Pad_DrummerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03F6E5F6244FD18F00867685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F6E5DD244FD18D00867685 /* Pad-Drummer */;
+			targetProxy = 03F6E5F5244FD18F00867685 /* PBXContainerItemProxy */;
+		};
+		03F6E601244FD18F00867685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F6E5DD244FD18D00867685 /* Pad-Drummer */;
+			targetProxy = 03F6E600244FD18F00867685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03F6E5E7244FD18D00867685 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F6E5E8244FD18D00867685 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03F6E5EC244FD18F00867685 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F6E5ED244FD18F00867685 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03F6E606244FD18F00867685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03F6E607244FD18F00867685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03F6E609244FD18F00867685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZBMB8PTAV;
+				INFOPLIST_FILE = "Pad-Drummer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HT.Pad-Drummer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		03F6E60A244FD18F00867685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZBMB8PTAV;
+				INFOPLIST_FILE = "Pad-Drummer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HT.Pad-Drummer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		03F6E60C244FD18F00867685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZBMB8PTAV;
+				INFOPLIST_FILE = "Pad-DrummerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HT.Pad-DrummerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pad-Drummer.app/Pad-Drummer";
+			};
+			name = Debug;
+		};
+		03F6E60D244FD18F00867685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZBMB8PTAV;
+				INFOPLIST_FILE = "Pad-DrummerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HT.Pad-DrummerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pad-Drummer.app/Pad-Drummer";
+			};
+			name = Release;
+		};
+		03F6E60F244FD18F00867685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZBMB8PTAV;
+				INFOPLIST_FILE = "Pad-DrummerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HT.Pad-DrummerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pad-Drummer";
+			};
+			name = Debug;
+		};
+		03F6E610244FD18F00867685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MZBMB8PTAV;
+				INFOPLIST_FILE = "Pad-DrummerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HT.Pad-DrummerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pad-Drummer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F6E5D9244FD18D00867685 /* Build configuration list for PBXProject "Pad-Drummer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F6E606244FD18F00867685 /* Debug */,
+				03F6E607244FD18F00867685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F6E608244FD18F00867685 /* Build configuration list for PBXNativeTarget "Pad-Drummer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F6E609244FD18F00867685 /* Debug */,
+				03F6E60A244FD18F00867685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F6E60B244FD18F00867685 /* Build configuration list for PBXNativeTarget "Pad-DrummerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F6E60C244FD18F00867685 /* Debug */,
+				03F6E60D244FD18F00867685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F6E60E244FD18F00867685 /* Build configuration list for PBXNativeTarget "Pad-DrummerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F6E60F244FD18F00867685 /* Debug */,
+				03F6E610244FD18F00867685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F6E5D6244FD18D00867685 /* Project object */;
+}

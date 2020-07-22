@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:actionBarNavMode="standard"
+    tools:context=".helpactivity">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:fontFamily="@font/eras"
+        android:text="Help and Support"
+        android:textColor="#FFEB3B"
+        android:textSize="30dp"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+
+        android:layout_width="322dp"
+        android:layout_height="206dp"
+        android:ems="10"
+        android:fontFamily="@font/eras"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="              HOW TO USE
+                       1. Tap pad
+                                   2. Create your own beat
+                            3. Use up to 5 buttons a concurrent time
+                               4. For Suggestions and bug report Contact:
+                                     karkisachin137@gmail.com"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <!--Editable Text View Box-->
+
+    <EditText
+        android:id="@+id/Id"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:text="                       Enter Your email "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="325dp">
+
+
+    </EditText>
+
+    <EditText
+
+        android:layout_width="362dp"
+        android:layout_height="172dp"
+        android:background="@android:color/darker_gray"
+        android:text="   Enter queries, questions and bug reports!  "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="361dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/sendbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Submit"
+        android:text="@string/Send"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+</LinearLayout>

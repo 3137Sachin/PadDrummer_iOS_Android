@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title = "About"
+        android:id = "@+id/action_about"
+        app:showAsAction="never">
+
+
+    </item>
+
+    <item android:title = "Tips"
+        android:id = "@+id/action_tips"
+        app:showAsAction = "never">
+
+    </item>
+
+    <item android:title = "Settings"
+        android:id="@+id/action_settings"
+        app:showAsAction = "never">
+
+    </item>
+
+    <item android:title = "Help and Support"
+        android:id = "@+id/action_help"
+        app:showAsAction = "never">
+
+    </item>
+
+    <item android:title = "Home"
+        android:id = "@+id/action_home"
+        app:showAsAction = "never">
+
+    </item>
+</menu>

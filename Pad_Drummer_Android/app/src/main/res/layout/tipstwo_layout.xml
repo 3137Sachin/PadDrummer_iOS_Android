@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <!--Text Field -->
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/eras"
+        android:text="Tip Two Page"
+        android:textColor="#FFEB3B"
+        android:textSize="30dp"
+        android:typeface="normal" />
+
+    <!--Button to go to tips 1 -->
+    <Button
+        android:id="@+id/btnNavFrag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text_view"
+        android:text="Tip 1" />
+
+    <!--Button to go to tips 2 -->
+    <Button
+        android:id="@+id/btnNavFrag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnNavFrag1"
+        android:text="Tip 2" />
+
+
+    <!--Text View -->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNavFrag1"
+        android:layout_marginTop="156dp"
+        android:fontFamily="@font/eras"
+        android:text="Tip 2: Listen carefully to the music!!"
+        android:textColor="#CD1338"
+        android:textSize="30dp"
+        android:typeface="normal" />
+
+</RelativeLayout>

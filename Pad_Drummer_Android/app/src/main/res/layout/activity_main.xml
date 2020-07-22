@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:background="@drawable/background"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--Title text using Linear Layout-->
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:text="Pad Drummer"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:typeface="normal"
+        android:fontFamily="@font/eras"/>
+
+    <!--Title text using Linear Layout-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Synth Pack"
+        android:textColor="#DEF603"
+        android:textSize="20dp"
+        android:typeface="normal"
+        android:fontFamily="@font/eras"/>
+
+    <!--Load Buttons and color them using Linear Layout-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/blue_button"
+            android:onClick="playsound1" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/purple_button"
+            android:onClick="playsound2" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/pink_button"
+            android:onClick="playsound3" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop = "5dp"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/purple_button"
+            android:onClick="playsound4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <Button
+            android:background="@drawable/pink_button"
+            android:layout_marginLeft = "5dp"
+            android:onClick="playsound5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <Button
+            android:background="@drawable/purple_button"
+            android:layout_marginLeft = "5dp"
+            android:onClick="playsound6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop = "5dp"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/pink_button"
+            android:onClick="playsound7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <Button
+            android:background="@drawable/green_button"
+            android:layout_marginLeft = "5dp"
+            android:onClick="playsound8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <Button
+            android:background="@drawable/darkblue_button"
+            android:layout_marginLeft = "5dp"
+            android:onClick="playsound9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

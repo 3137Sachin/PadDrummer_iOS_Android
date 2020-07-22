@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!--Text Field -->
+
+
+    <!--Button to go to tips 2 -->
+
+    <TextView
+        android:id="@+id/text123"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:fontFamily="@font/eras"
+        android:text="Tips Page"
+        android:textColor="#FFEB3B"
+        android:textSize="30dp"
+        android:typeface="normal" />
+
+
+    <!--Text View -->
+    <Button
+        android:id="@+id/btnNavFrag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text123"
+        android:layout_marginTop="-2dp"
+        android:gravity="center"
+        android:text="Go To Tip 2" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNavFrag1"
+        android:layout_marginTop="156dp"
+        android:fontFamily="@font/eras"
+        android:text="Tip 1: Practice, Practice, Practice!!"
+        android:textColor="#13C7CD"
+        android:textSize="30dp"
+        android:typeface="normal" />
+
+</RelativeLayout>
