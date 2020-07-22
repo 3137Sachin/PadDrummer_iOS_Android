@@ -1,6 +1,6 @@
 ![321321](https://user-images.githubusercontent.com/43224388/88149397-a5dde500-cbc5-11ea-8e1d-ca4877736259.PNG)
 
-# PadDrummer (iOS & Android)
+# Pad Drummer (iOS & Android)
 A music pad drummer app for both iOS and Android
 
 ## Introduction
