@@ -25,3 +25,20 @@ A music pad drummer app for both iOS and Android
 I choose Swift because it is swift for iOS. I used Android Studio for Android development. 
 
 ## Screenshots
+![123](https://user-images.githubusercontent.com/43224388/88254696-b05ab600-cc7b-11ea-9afc-ad5ce0b9c769.PNG)
+
+![12344](https://user-images.githubusercontent.com/43224388/88254698-b2247980-cc7b-11ea-87b8-fddec3b8674d.PNG)
+
+![54234](https://user-images.githubusercontent.com/43224388/88254702-b355a680-cc7b-11ea-9a04-770905dafbac.PNG)
+
+<img width="349" alt="Screen Shot 2020-07-23 at 12 28 42 AM" src="https://user-images.githubusercontent.com/43224388/88254714-b9e41e00-cc7b-11ea-9ce7-0ad8dae3f762.png">
+
+<img width="349" alt="Screen Shot 2020-07-23 at 12 28 46 AM" src="https://user-images.githubusercontent.com/43224388/88254717-bb154b00-cc7b-11ea-80bb-a9f3feb3205b.png">
+
+<img width="349" alt="Screen Shot 2020-07-23 at 12 28 49 AM" src="https://user-images.githubusercontent.com/43224388/88254722-bc467800-cc7b-11ea-8d7c-dc940d760415.png">
+
+<img width="349" alt="Screen Shot 2020-07-23 at 12 28 51 AM" src="https://user-images.githubusercontent.com/43224388/88254729-bd77a500-cc7b-11ea-9309-b369e609097c.png">
+
+<img width="349" alt="Screen Shot 2020-07-23 at 12 28 55 AM" src="https://user-images.githubusercontent.com/43224388/88254731-bea8d200-cc7b-11ea-964a-0fe0bdc76a30.png">
+
+<img width="894" alt="Screen Shot 2020-07-23 at 12 25 03 AM" src="https://user-images.githubusercontent.com/43224388/88254733-bfd9ff00-cc7b-11ea-8eab-a7788d632e31.png">
